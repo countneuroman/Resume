@@ -1,0 +1,56 @@
+﻿body {
+    margin: 0;/*Избавляемся от стандартных отступов*/
+}
+
+
+.br{    /*отступ*/
+    margin-bottom:80px;   
+}
+a{ 
+    color:white; /*цвет ссылок*/
+}
+
+a:active{
+    color:red;/*цвет активных ссылок*/
+}
+
+a:visited{
+    color:darkblue;/*цвет посещенных ссылок*/
+}
+
+#side, #content {
+    position: absolute;
+}
+
+h3.information{ 
+    font-weight:normal;/*устанавливаем жирность жрифта*/
+}
+
+p.description{
+    line-height:0.5;/*межсрочный интервал*/
+}
+.information{
+    margin-top:-15px;
+}
+.date{
+    margin-top:-15px;
+    color:darkgray;/*Устанавливаем цвет текста*/
+}
+
+#side { /*Блок данных и скиллов*/
+    text-align: center; /*Форматирование текста*/
+    width: 300px;
+    color:white;
+    background-color: #246961; /*Цвет фона*/
+    border-right: 1px solid #231F20;
+    top: 0px; /* Расстояние от верхнего края */
+    bottom: 0; /* Расстояние снизу  */
+    line-height: 0.5;
+}
+
+#content { /*Блок инофрмации о себе*/
+    top: 0px; /* Расстояние от верхнего края */
+    left: 350px; /* Расстояние от левого края */
+    bottom: 0;
+    right: 0;
+}
